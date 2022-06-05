@@ -77,7 +77,7 @@ Note that the logged command arguments may include either `-t` or `-f`:
 * `-t` meaning data transfer **_to_** the server (initiated by a remote user from outside the server).
 * `-f` meaning data transfer **_from_** the server (initiated by a remote user from outside the server).
 
-See https://github.com/openssh/openssh-portable/blob/V_9_0_P1/scp.c#L567-L581
+See https://github.com/openssh/openssh-portable/blob/V_9_0_P1/scp.c#L571-L577
 
 
 ### Relative paths
