@@ -13,6 +13,8 @@ This means that it is possible to tweak the `scp` executable on the server to en
 ## Limitations
 User accounts must have write-access to their individual log-files.
 
+File names are not guaranteed to be logged. The source and/or destination folders are logged though.
+
 Far from perfect, but at least it is relatively simple...
 
 
@@ -75,6 +77,11 @@ Note that the logged command arguments may include either `-t` or `-f`:
 * `-t` meaning data transfer **_to_** the server (initiated by a remote user from outside the server).
 * `-f` meaning data transfer **_from_** the server (initiated by a remote user from outside the server).
 
+
+### Relative paths
+A path that does not start with `/` is relative to the user home dir `$HOME`.
+
+In the example above when a path is logged as `.` it translates into `$HOME/.` which is simply the same as `$HOME`.
 
 
 ------------------------
