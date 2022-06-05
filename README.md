@@ -84,8 +84,6 @@ A path that does not start with `/` is relative to the user home dir `$HOME`.
 When a path is logged as `.` it translates into `$HOME/.` which is simply the same as `$HOME`.
 
 
-------------------------
-
 
 
 ## Acknowledgements
