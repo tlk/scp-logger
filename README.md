@@ -81,7 +81,7 @@ Note that the logged command arguments may include either `-t` or `-f`:
 ### Relative paths
 A path that does not start with `/` is relative to the user home dir `$HOME`.
 
-In the example above when a path is logged as `.` it translates into `$HOME/.` which is simply the same as `$HOME`.
+When a path is logged as `.` it translates into `$HOME/.` which is simply the same as `$HOME`.
 
 
 ------------------------
