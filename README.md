@@ -80,11 +80,12 @@ Note that the logged command arguments may include either `-t` or `-f`:
 See https://github.com/openssh/openssh-portable/blob/V_9_0_P1/scp.c#L571-L577
 
 
-### Relative paths
+### Relative paths in log-files
+The following statements are made under the assumption that remote users are using standard `scp` client software.
+
 A path that does not start with `/` is relative to the user home dir `$HOME`.
 
 When a path is logged as `.` it translates into `$HOME/.` which is simply the same as `$HOME`.
-
 
 
 
