@@ -1,4 +1,4 @@
-# Logging OpenSSH secure copy
+# PoC: Logging OpenSSH secure copy
 
 Monitoring OpenSSH secure copy on an old server involves:
 
@@ -11,7 +11,7 @@ This means that it is possible to tweak the `scp` executable on the server to en
 
 
 ## Limitations
-User accounts must have write-access to their individual log-files.
+User accounts must have write-access to their individual log-files(!).
 
 File names are not guaranteed to be logged. The source and/or destination folders are logged though.
 
