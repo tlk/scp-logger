@@ -5,7 +5,7 @@ Monitoring OpenSSH secure copy on an old server involves:
 * Local users who can run `scp` to transfer files.
 * Remote users who can run `scp` on their systems to access files on the server.
 
-In both cases a local `scp` command is - eventually - being executed on the server.
+In both cases a local `scp` command is - [eventually](https://github.com/openssh/openssh-portable/blob/V_9_0_P1/scp.c#L637-L641) - being executed on the server.
 
 This means that it is possible to tweak the `scp` executable on the server to enable rudimentary logging.
 
