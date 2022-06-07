@@ -23,10 +23,8 @@ Far from perfect, but at least it is relatively simple...
 Download and install the wrapper script in place of the original executable:
 ```
 server:~ $ curl -O https://raw.githubusercontent.com/tlk/scp-logger/main/scp-logger.sh
-server:~ $ sudo mv /usr/bin/scp /usr/bin/scp.original
-server:~ $ sudo mv scp-logger.sh /usr/bin/scp
-server:~ $ sudo chown root:root /usr/bin/scp
-server:~ $ sudo chmod +r,go-w,+x /usr/bin/scp
+server:~ $ sudo cp /usr/bin/scp /usr/bin/scp.original
+server:~ $ sudo cp scp-logger.sh /usr/bin/scp
 ```
 
 How to uninstall:
