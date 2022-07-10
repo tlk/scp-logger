@@ -90,6 +90,7 @@ When a path is logged as `.` it translates into `$HOME/.` which is simply the sa
 ## Acknowledgements
 * https://askubuntu.com/a/660153/1039302
 * https://askubuntu.com/a/660243/1039302
+* https://serverfault.com/a/480350/558668
 
 
 ## See also
